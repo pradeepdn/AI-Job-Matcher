@@ -1,0 +1,54 @@
+Extract all career-relevant information from the resume text and return it as a
+structured JSON object matching the CandidateProfile schema.
+
+## Extraction Rules
+
+1. **Evidence only** — extract facts explicitly stated in the resume. Do not infer.
+2. **Skill duration** — do NOT estimate years per skill from project count.
+   A skill appearing in 5 projects is NOT "5 years of experience."
+3. **Null is correct** — use null for strings and [] for lists when data is absent.
+4. **Preserve language** — copy responsibilities as written; light paraphrasing is OK.
+5. **target_roles** — infer only roles the candidate's actual experience supports.
+   Base this on job titles held, not aspirations unless stated.
+6. **skill_evidence** — provide direct resume quotes for the top 5–10 skills only.
+   Each evidence item must be a real sentence from the resume.
+7. **Do not invent** — no companies, technologies, or achievements not in the text.
+
+## Field-by-Field Guidance
+
+### current_title
+The most recent job title, exactly as written on the resume.
+
+### target_roles
+Roles the candidate is clearly qualified for based on experience.
+Examples: "Senior Backend Engineer", "Python Developer", "ML Engineer"
+
+### total_years_experience
+Sum of all work experience durations from date ranges.
+If dates are missing, estimate conservatively or return null.
+
+### technical_skills
+Flat list of all technologies, languages, frameworks, tools, platforms.
+Include only those explicitly named in the resume.
+
+### work_experience
+Each entry: title, company, responsibilities (bullets), technologies, years.
+Order: most recent first.
+
+### projects
+Only include explicitly listed projects (not work experience).
+
+### skill_evidence
+For each of the top 5–10 technical skills, provide 1–3 direct resume quotes
+that demonstrate the skill. Example:
+{{
+  "skill": "AWS",
+  "evidence": [
+    "Deployed containerized services using AWS ECS.",
+    "Reduced infrastructure costs 30% by migrating to AWS Lambda."
+  ]
+}}
+
+## Resume Text
+
+{resume_text}

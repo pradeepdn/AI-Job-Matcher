@@ -1,0 +1,83 @@
+[
+  {
+    "id": "gh_100001",
+    "source": "greenhouse",
+    "external_id": "100001",
+    "title": "Senior Backend Engineer",
+    "company": "Acme Corp",
+    "location": "San Francisco, CA",
+    "is_remote": false,
+    "employment_type": "Full-time",
+    "department": "Engineering",
+    "description_text": "We are looking for a Senior Backend Engineer to join our platform team. You will design and build scalable APIs powering millions of users. You will work closely with product and infrastructure teams to deliver high-quality software.\n\nResponsibilities:\n- Design and implement RESTful and gRPC APIs using Python and FastAPI\n- Own backend services from design through deployment\n- Collaborate with the data team on PostgreSQL schemas and query optimization\n- Participate in on-call rotation and incident response\n\nRequirements:\n- 4+ years of professional software engineering experience\n- Strong proficiency in Python\n- Experience with FastAPI or similar async frameworks\n- Proficiency with PostgreSQL or other relational databases\n- Experience with Docker and Kubernetes\n- Solid understanding of distributed systems",
+    "requirements": [
+      "4+ years of professional software engineering experience",
+      "Strong proficiency in Python",
+      "Experience with FastAPI or similar async frameworks",
+      "Proficiency with PostgreSQL or other relational databases",
+      "Experience with Docker and Kubernetes"
+    ],
+    "nice_to_have": [
+      "Experience with gRPC",
+      "Familiarity with Kafka or other message queues",
+      "Prior experience at a high-growth startup"
+    ],
+    "required_skills": ["Python", "FastAPI", "PostgreSQL", "Docker", "Kubernetes", "gRPC"],
+    "application_url": "https://boards.greenhouse.io/acmecorp/jobs/100001",
+    "board_url": "https://boards.greenhouse.io/acmecorp"
+  },
+  {
+    "id": "lv_200001",
+    "source": "lever",
+    "external_id": "200001",
+    "title": "Machine Learning Engineer",
+    "company": "DataFlow Inc",
+    "location": "Remote",
+    "is_remote": true,
+    "employment_type": "Full-time",
+    "department": "AI Platform",
+    "description_text": "Join our AI Platform team to build and scale machine learning infrastructure. You will work on model training pipelines, feature stores, and model serving systems that power our core product.\n\nResponsibilities:\n- Build and maintain ML training pipelines using Python and PyTorch\n- Develop feature engineering and data preprocessing workflows\n- Deploy and monitor models in production using MLflow and AWS SageMaker\n- Collaborate with research scientists to move experiments to production\n\nRequirements:\n- 3+ years of experience in machine learning engineering\n- Proficiency in Python and at least one ML framework (PyTorch, TensorFlow)\n- Experience with cloud platforms (AWS, GCP, or Azure)\n- Familiarity with MLOps practices and tooling\n- Strong understanding of data pipelines and ETL processes",
+    "requirements": [
+      "3+ years of ML engineering experience",
+      "Proficiency in Python and PyTorch or TensorFlow",
+      "Experience with AWS, GCP, or Azure",
+      "Knowledge of MLOps tooling",
+      "Experience with data pipelines and ETL"
+    ],
+    "nice_to_have": [
+      "Experience with Spark or Dask",
+      "Contributions to open-source ML projects",
+      "PhD in a quantitative field"
+    ],
+    "required_skills": ["Python", "PyTorch", "TensorFlow", "AWS", "MLflow", "SageMaker", "SQL"],
+    "application_url": "https://jobs.lever.co/dataflow/200001",
+    "board_url": "https://jobs.lever.co/dataflow"
+  },
+  {
+    "id": "gh_100002",
+    "source": "greenhouse",
+    "external_id": "100002",
+    "title": "Full Stack Engineer",
+    "company": "BuildFast",
+    "location": "New York, NY",
+    "is_remote": false,
+    "employment_type": "Full-time",
+    "department": "Product Engineering",
+    "description_text": "BuildFast is looking for a Full Stack Engineer to build features across our React frontend and Python/FastAPI backend. You'll own features end-to-end, from design to deployment.\n\nRequirements:\n- 2+ years of full-stack experience\n- Proficiency in React and TypeScript\n- Backend experience with Python (FastAPI or Django)\n- Experience with relational databases (PostgreSQL)\n- Comfortable with Git and CI/CD workflows",
+    "requirements": [
+      "2+ years of full-stack experience",
+      "Proficiency in React and TypeScript",
+      "Backend experience with Python (FastAPI or Django)",
+      "Experience with PostgreSQL",
+      "Comfortable with Git and CI/CD"
+    ],
+    "nice_to_have": [
+      "Experience with Next.js",
+      "Knowledge of GraphQL",
+      "Prior startup experience"
+    ],
+    "required_skills": ["React", "TypeScript", "Python", "FastAPI", "PostgreSQL", "Git"],
+    "application_url": "https://boards.greenhouse.io/buildfast/jobs/100002",
+    "board_url": "https://boards.greenhouse.io/buildfast"
+  }
+]
